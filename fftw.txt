@@ -1,0 +1,230 @@
+INTER = 1
+NSAMP = 64
+NLOOP = 1
+OMP_NUM_THREADS = 1
+Note: Google Test filter = *many*
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestDFT
+[ RUN      ] TestDFT.manyc2cFFTW_Aligned_One
+round 0: 4.40666
+round 1: 4.41819
+round 2: 4.41582
+round 3: 4.42023
+round 4: 4.41654
+round 5: 4.41608
+round 6: 4.41589
+round 7: 4.42023
+round 8: 4.41665
+round 9: 4.41628
+round 10: 4.41871
+round 11: 4.41848
+round 12: 4.56296
+round 13: 4.41659
+round 14: 4.41785
+round 15: 4.41659
+round 16: 4.42237
+round 17: 4.42311
+round 18: 4.41734
+round 19: 4.41993
+round 20: 4.41816
+round 21: 4.41808
+round 22: 4.41696
+round 23: 4.42072
+round 24: 4.41841
+round 25: 4.56545
+round 26: 4.41626
+round 27: 4.41897
+round 28: 4.4182
+round 29: 4.41667
+Ec2cFFTW : nsamp : 64 nloop : 1 ompT : 1 kernel mean : 4.42748 sd : 0.0366454 .
+ [       OK ] TestDFT.manyc2cFFTW_Aligned_One (1833 ms)
+[----------] 1 test from TestDFT (1833 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1833 ms total)
+[  PASSED  ] 1 test.
+INTER = 1
+NSAMP = 128
+NLOOP = 1
+OMP_NUM_THREADS = 1
+Note: Google Test filter = *many*
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestDFT
+[ RUN      ] TestDFT.manyc2cFFTW_Aligned_One
+round 0: 10.8803
+round 1: 10.8872
+round 2: 10.8731
+round 3: 10.8739
+round 4: 10.8738
+round 5: 10.8739
+round 6: 10.8769
+round 7: 10.8745
+round 8: 10.8714
+round 9: 10.8739
+round 10: 10.8749
+round 11: 10.8743
+round 12: 10.8733
+round 13: 10.873
+round 14: 10.8723
+round 15: 10.8746
+round 16: 10.8727
+round 17: 10.8707
+round 18: 10.8723
+round 19: 10.875
+round 20: 11.0179
+round 21: 10.8737
+round 22: 10.8756
+round 23: 10.8759
+round 24: 10.8729
+round 25: 10.877
+round 26: 10.8755
+round 27: 10.8713
+round 28: 10.8709
+round 29: 10.8732
+Ec2cFFTW : nsamp : 128 nloop : 1 ompT : 1 kernel mean : 10.8792 sd : 0.0259339 .
+ [       OK ] TestDFT.manyc2cFFTW_Aligned_One (3586 ms)
+[----------] 1 test from TestDFT (3586 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3586 ms total)
+[  PASSED  ] 1 test.
+INTER = 1
+NSAMP = 256
+NLOOP = 1
+OMP_NUM_THREADS = 1
+Note: Google Test filter = *many*
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestDFT
+[ RUN      ] TestDFT.manyc2cFFTW_Aligned_One
+round 0: 25.0696
+round 1: 25.0666
+round 2: 25.0661
+round 3: 25.0659
+round 4: 25.0636
+round 5: 25.2694
+round 6: 25.1242
+round 7: 25.0633
+round 8: 25.0667
+round 9: 25.1176
+round 10: 25.0653
+round 11: 25.0665
+round 12: 25.0637
+round 13: 25.1591
+round 14: 25.0654
+round 15: 25.0675
+round 16: 25.209
+round 17: 25.1977
+round 18: 25.0676
+round 19: 25.067
+round 20: 25.063
+round 21: 25.1909
+round 22: 25.0976
+round 23: 25.1808
+round 24: 25.0642
+round 25: 25.1472
+round 26: 25.0641
+round 27: 25.0648
+round 28: 25.0647
+round 29: 25.112
+Ec2cFFTW : nsamp : 256 nloop : 1 ompT : 1 kernel mean : 25.1017 sd : 0.0560313 .
+ [       OK ] TestDFT.manyc2cFFTW_Aligned_One (5667 ms)
+[----------] 1 test from TestDFT (5667 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (5667 ms total)
+[  PASSED  ] 1 test.
+INTER = 1
+NSAMP = 512
+NLOOP = 1
+OMP_NUM_THREADS = 1
+Note: Google Test filter = *many*
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestDFT
+[ RUN      ] TestDFT.manyc2cFFTW_Aligned_One
+round 0: 63.5162
+round 1: 62.8459
+round 2: 63.2192
+round 3: 63.1334
+round 4: 62.9182
+round 5: 62.9285
+round 6: 62.9348
+round 7: 63.0712
+round 8: 62.928
+round 9: 62.9202
+round 10: 63.0604
+round 11: 62.9051
+round 12: 63.0665
+round 13: 62.9337
+round 14: 62.9299
+round 15: 62.9284
+round 16: 62.916
+round 17: 63.0685
+round 18: 62.9084
+round 19: 63.0872
+round 20: 62.9719
+round 21: 62.9325
+round 22: 63.0564
+round 23: 63.2178
+round 24: 62.9243
+round 25: 62.9413
+round 26: 63.0348
+round 27: 63.0595
+round 28: 63.0807
+round 29: 62.9305
+Ec2cFFTW : nsamp : 512 nloop : 1 ompT : 1 kernel mean : 63.0123 sd : 0.132244 .
+ [       OK ] TestDFT.manyc2cFFTW_Aligned_One (9062 ms)
+[----------] 1 test from TestDFT (9063 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (9063 ms total)
+[  PASSED  ] 1 test.
+INTER = 1
+NSAMP = 1024
+NLOOP = 1
+OMP_NUM_THREADS = 1
+Note: Google Test filter = *many*
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from TestDFT
+[ RUN      ] TestDFT.manyc2cFFTW_Aligned_One
+round 0: 133.808
+round 1: 133.877
+round 2: 133.873
+round 3: 134.018
+round 4: 133.874
+round 5: 134.02
+round 6: 133.905
+round 7: 133.877
+round 8: 133.879
+round 9: 133.876
+round 10: 134.163
+round 11: 134.456
+round 12: 134.016
+round 13: 133.995
+round 14: 133.853
+round 15: 134.029
+round 16: 134.169
+round 17: 134.188
+round 18: 134.225
+round 19: 134.217
+round 20: 134.128
+round 21: 134.166
+round 22: 134.018
+round 23: 134.191
+round 24: 133.882
+round 25: 133.859
+round 26: 134.312
+round 27: 133.869
+round 28: 133.87
+round 29: 133.93
+Ec2cFFTW : nsamp : 1024 nloop : 1 ompT : 1 kernel mean : 134.018 sd : 0.163215 .
+ [       OK ] TestDFT.manyc2cFFTW_Aligned_One (14130 ms)
+[----------] 1 test from TestDFT (14131 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (14132 ms total)
+[  PASSED  ] 1 test.
